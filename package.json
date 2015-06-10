@@ -1,0 +1,38 @@
+{
+  "name": "complete-all-contacts-migration",
+  "version": "1.0.0",
+  "description": "Set status of all person docs that have a contact to complete",
+  "bin": {
+    "complete-all-contacts": "bin/main.js"
+  },
+  "scripts": {
+    "test": "tape-dots test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eHealthAfrica/complete-all-contacts-migration.git"
+  },
+  "keywords": [
+    "data",
+    "migration",
+    "person",
+    "contact",
+    "couchdb",
+    "pouchdb",
+    "cli"
+  ],
+  "author": "Tibor Claassen <tibor@gmah.net> (http://codebeige.net)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/eHealthAfrica/complete-all-contacts-migration/issues"
+  },
+  "homepage": "https://github.com/eHealthAfrica/complete-all-contacts-migration#readme",
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "tape-dots": "^1.0.0"
+  },
+  "dependencies": {
+    "pouchdb": "^3.6.0",
+    "pouchdb-migrate": "^1.0.1"
+  }
+}
